@@ -32,3 +32,4 @@ png("Annual_travelcard.png",h=6,w=6,unit="in",res=300)
 barplot(monthly,pch=20,names=1:12,ylim=c(0,120),xlab="Month",ylab="Cost (£)",main="TfL expenditure (2017)")
 abline(h=110,lty=2)
 dev.off()
+# Should I buy an annual travelcard? No.
